@@ -1,0 +1,41 @@
+var TwitterPackage = require('twitter');
+
+var secret = {
+  consumer_key: 'HQyH8FtkWUMpHmUdTVSEmnXZJ',
+  consumer_secret: 'o5B59ZaTDFEQR8pDI1AypzNmyjmjEcQQcjLO0oXb7jgEinvqPq',
+  access_token_key: '1320253705699033088-9ki3zTbkAAX2HTSIWFpadijIWlhQx1',
+  access_token_secret: 'zspOTN3rWvAIyoQhyuDwqg2ul6NTKDrzfa46FxaRsIo9c'
+}
+var Twitter = new TwitterPackage(secret);
+
+// Call the stream function and pass in 'statuses/filter', our filter object, and our callback
+Twitter.stream('statuses/filter', {track: 'towelhead'}, function(stream) {
+
+  // ... when we get tweet data...
+  stream.on('data', function(tweet) {
+
+    // print out the text of the tweet that came in
+    console.log(tweet.text);
+
+    //build our reply object
+    var statusObj = {status: "Hi @" + tweet.user.screen_name + ", please understand that the use of the phrase towelhead is Islamophobic and offensive. If you would like to know more, please click here to be redirected to our website!"}
+
+    //call the post function to tweet something
+    Twitter.post('statuses/update', statusObj,  function(error, tweetReply, response){
+
+      //if we get an error print it out
+      if(error){
+        console.log(error);
+      }
+
+      //print the text of the tweet we sent out
+      console.log(tweetReply.text);
+    });
+  });
+
+  // ... when we get an error...
+  stream.on('error', function(error) {
+    //print out the error
+    console.log(error);
+  });
+});
