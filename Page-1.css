@@ -1,0 +1,70 @@
+.u-section-1 {background-image: url("images/alsna.jpeg")}
+.u-section-1 .u-sheet-1 {min-height: 999px}
+.u-section-1 .u-text-1 {font-size: 12.5rem; line-height: 1; background-image: none; font-family: "Bebas Neue"; margin: 287px 0 60px} 
+
+@media (max-width: 1199px){ .u-section-1 .u-sheet-1 {min-height: 699px}
+.u-section-1 .u-text-1 {font-weight: normal} }
+
+@media (max-width: 991px){ .u-section-1 .u-sheet-1 {min-height: 655px} }
+
+@media (max-width: 767px){ .u-section-1 .u-sheet-1 {min-height: 656px} }
+
+@media (max-width: 575px){ .u-section-1 .u-sheet-1 {min-height: 492px}
+.u-section-1 .u-text-1 {font-size: 2.25rem} }.u-section-2 .u-sheet-1 {min-height: 492px}
+.u-section-2 .u-text-1 {font-size: 6.875rem; font-weight: 700; margin: 103px 0 0}
+.u-section-2 .u-text-2 {margin: 20px auto 60px} 
+
+@media (max-width: 991px){ .u-section-2 .u-text-1 {font-size: 6rem} }
+
+@media (max-width: 767px){ .u-section-2 .u-text-1 {font-size: 4.5rem} }
+
+@media (max-width: 575px){ .u-section-2 .u-text-1 {font-size: 3rem} }.u-section-3 .u-sheet-1 {min-height: 787px}
+.u-section-3 .u-image-1 {width: 1042px; height: 445px; margin: 156px auto 60px} 
+
+@media (max-width: 1199px){ .u-section-3 .u-sheet-1 {min-height: 749px}
+.u-section-3 .u-image-1 {width: 940px; height: 402px} }
+
+@media (max-width: 991px){ .u-section-3 .u-sheet-1 {min-height: 440px}
+.u-section-3 .u-image-1 {width: 720px; height: 308px} }
+
+@media (max-width: 767px){ .u-section-3 .u-sheet-1 {min-height: 478px}
+.u-section-3 .u-image-1 {width: 540px; height: 231px} }
+
+@media (max-width: 575px){ .u-section-3 .u-sheet-1 {min-height: 771px}
+.u-section-3 .u-image-1 {width: 340px; height: 145px} }.u-section-4 .u-sheet-1 {min-height: 2183px}
+.u-section-4 .u-text-1 {letter-spacing: 0; font-size: 6.875rem; font-weight: 700; text-transform: none; animation-duration: 1000ms; margin: 141px auto 0}
+.u-section-4 .u-text-2 {letter-spacing: 2px; font-size: 2.25rem; margin: 61px -12px 0 auto}
+.u-section-4 .u-text-3 {letter-spacing: 0; font-size: 6.875rem; text-transform: none; font-weight: 700; margin: 71px auto 0 -12px}
+.u-section-4 .u-text-4 {letter-spacing: 2px; font-size: 2.25rem; margin: 34px 0 60px} 
+
+@media (max-width: 1199px){ .u-section-4 .u-text-1 {margin-top: 243px}
+.u-section-4 .u-text-2 {font-size: 3.75rem; margin-top: 772px; margin-right: -10px}
+.u-section-4 .u-text-3 {margin-left: -10px} }
+
+@media (max-width: 991px){ .u-section-4 .u-text-1 {font-size: 6rem}
+.u-section-4 .u-text-2 {margin-right: -8px}
+.u-section-4 .u-text-3 {margin-left: -8px} }
+
+@media (max-width: 767px){ .u-section-4 .u-text-1 {font-size: 4.5rem}
+.u-section-4 .u-text-2 {margin-top: 817px; margin-right: -6px}
+.u-section-4 .u-text-3 {margin-left: -6px} }
+
+@media (max-width: 575px){ .u-section-4 .u-text-1 {font-size: 3rem}
+.u-section-4 .u-text-2 {margin-top: 601px; margin-right: -4px}
+.u-section-4 .u-text-3 {font-size: 1.5rem; margin-left: -4px} }.u-section-5 .u-sheet-1 {min-height: 1883px}
+.u-section-5 .u-text-1 {font-size: 6.875rem; font-weight: 700; margin: 209px 151px 0 127px}
+.u-section-5 .u-text-2 {font-size: 2.25rem; margin: 144px 0 60px} 
+
+@media (max-width: 1199px){ .u-section-5 .u-text-1 {width: 767px; margin-left: 27px; margin-right: 51px} }
+
+@media (max-width: 991px){ .u-section-5 .u-text-1 {width: 720px; margin-left: 0; margin-right: 0} }
+
+@media (max-width: 767px){ .u-section-5 .u-text-1 {width: 540px} }
+
+@media (max-width: 575px){ .u-section-5 .u-text-1 {width: 340px} }.u-section-6 .u-sheet-1 {min-height: 1440px}
+.u-section-6 .u-text-1 {font-size: 6.875rem; margin: 181px auto 0}
+.u-section-6 .u-text-2 {font-size: 2.25rem; margin: 20px 0 60px} 
+
+@media (max-width: 767px){ .u-section-6 .u-text-1 {font-size: 3.75rem} }
+
+@media (max-width: 575px){ .u-section-6 .u-text-1 {font-size: 3rem} }
