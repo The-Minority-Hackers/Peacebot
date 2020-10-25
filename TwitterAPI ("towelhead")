@@ -1,10 +1,10 @@
 var TwitterPackage = require('twitter');
 
 var secret = {
-  consumer_key: 'HQyH8FtkWUMpHmUdTVSEmnXZJ',
-  consumer_secret: 'o5B59ZaTDFEQR8pDI1AypzNmyjmjEcQQcjLO0oXb7jgEinvqPq',
-  access_token_key: '1320253705699033088-9ki3zTbkAAX2HTSIWFpadijIWlhQx1',
-  access_token_secret: 'zspOTN3rWvAIyoQhyuDwqg2ul6NTKDrzfa46FxaRsIo9c'
+  consumer_key: 'consumerkey',
+  consumer_secret: 'secretkey',
+  access_token_key: 'token',
+  access_token_secret: 'secrettoken'
 }
 var Twitter = new TwitterPackage(secret);
 
